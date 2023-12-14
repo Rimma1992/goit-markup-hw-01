@@ -39,8 +39,8 @@ a {
 }
 
 
-.link:hover,
-.link:focus {
+.nav-item-link:hover,
+.nav-item-link:focus {
     color: #404bbf;
 }
   
@@ -108,7 +108,7 @@ font-style: normal;
 
 
 .section_2{  
-    display: none;
+    visibility:hidden;
 }
 
 .description-list-head {
