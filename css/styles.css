@@ -38,6 +38,9 @@ a {
         text-align: left;
 }
 
+.nav-item-link{
+    color: #2e2f42;
+}
 
 .nav-item-link:hover,
 .nav-item-link:focus {
