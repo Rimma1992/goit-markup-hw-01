@@ -24,6 +24,10 @@ a {
         text-transform: uppercase;
 }     
 
+.header-logo-part {
+    color: #2E2F42;
+}
+
 .nav_item {
         color: #2E2F42;
         font-family: 'Roboto', sans-serif;
@@ -35,9 +39,7 @@ a {
         
     
 }
-.header-logo-part {
-    color: #2E2F42;
-}
+
 
 .link:hover,
 .link:focus {
