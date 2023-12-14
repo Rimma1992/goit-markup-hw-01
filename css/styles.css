@@ -32,11 +32,8 @@ a {
 
 }
 
-.header-logo-part {
-    color: #2E2F42;
-}
-.header-logo-part:hover,
-.header-logo-part:focus {
+.nav-item:hover,
+.nav-item:focus {
     background-color: #404bbf;
 }
 
