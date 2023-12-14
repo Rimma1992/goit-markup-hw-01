@@ -107,10 +107,10 @@ a {
 
 
 /*Section 2*/
-.description {
-    background-color:#FFFFFF ;
-}
 
+.section_2{
+    display: none;
+}
 
 .description-list-head {
         
