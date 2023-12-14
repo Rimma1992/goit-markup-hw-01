@@ -31,11 +31,10 @@ a {
         
 
 }
-
-.nav-item:hover,
-.nav-item:focus {
-    background-color: #404bbf;
+.header-logo-part {
+    color: #2E2F42;
 }
+
 
 
 .nav-item {
@@ -50,7 +49,7 @@ a {
 }
 .link:hover,
 .link:focus {
-    background-color: #404bbf;
+    color: #404bbf;
 }
   
 
