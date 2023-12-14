@@ -109,12 +109,12 @@ a {
 /*Section 2*/
 
 .section_2{
-    color: #2e2f42;
+  
     display: none;
 }
 
 .description-list-head {
-        
+        color: #2e2f42;
         font-family:'Roboto',
         sans-serif;
         font-size: 20px;
