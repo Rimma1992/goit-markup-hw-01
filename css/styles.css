@@ -31,20 +31,10 @@ a {
 
 }
 
-.studio {
+.header-logo-part {
     color: #2E2F42;
 }
-.header-logo-part {
-        
-            
-            font-family: 'Raleway',
-            sans-serif;
-            font-size: 18px;
-            font-weight: 700;
-            line-height: 21px;
-            letter-spacing: 0.03em;
-            text-align: left;
-}
+
 
 .navigation {
     font-family: "Raleway", sans-serif;
@@ -73,7 +63,6 @@ a {
 .link:focus {
     background-color: #404bbf;
 }
-.link:focus 
   
 
 
@@ -125,7 +114,10 @@ a {
         letter-spacing: 0.04em;
         cursor: pointer;
 }
-
+.button:hover,
+.button:focus {
+    background-color: #404bbf;
+}
 
 
 
@@ -133,12 +125,12 @@ a {
 
 
 .description-list-head {
-        font-weight: normal;
+        
         font-family:'Roboto',
             sans-serif;
         font-size: 20px;
         font-weight: 500;
-        line-height: 24px;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         text-align: left;
         
@@ -150,7 +142,7 @@ a {
     font-family: 'Roboto', sans-serif;
         font-size: 16px;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: left;
       
@@ -165,7 +157,8 @@ a {
 .our-team {
     background: #F4F4FD;
     color:#2E2F42;
-    font-family: Roboto;
+    font-family: 'Roboto',
+        sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
@@ -199,7 +192,7 @@ a {
     text-align: center;
 }
 .menu-teams {
-background-color: #434455;
+
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -212,6 +205,10 @@ background-color: #434455;
 
 
 .portfolio {
+    font-size: 36px;
+    line-height: 1.11; 
+    text-transform: capitalize;
+
 
 }
 .portfolio-list {
@@ -226,6 +223,7 @@ background-color: #434455;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+  
 }
 .portfolio-txt {
    color: #434455;
@@ -271,8 +269,8 @@ font-family:"Raleway",
 
 }
 .footer-logo-part {
-    color: #4D5AE5;
- 
+    
+color: #F4F4FD;
    font-family:"Raleway",
     sans-serif;
     font-size: 18px;
@@ -280,7 +278,4 @@ font-family:"Raleway",
     line-height:1.5;
     letter-spacing: 0.02em;
     text-align: left;
-}
-.studio {
-color: #F4F4FD;
 }
