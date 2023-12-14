@@ -15,10 +15,9 @@ a {
     text-decoration:none;
 
 }
-
+/*Header*/
 
 .header-logo {
-       
         color: #2E2F42;
         font-family: 'Raleway',
             sans-serif;
@@ -32,9 +31,10 @@ a {
 
 }
 .header-logo-part {
-    
-            color: #4D5AE5;
+        color: #4D5AE5;
+            
             font-family: 'Raleway',
+                sans-serif;
             font-size: 18px;
             font-weight: 700;
             line-height: 21px;
@@ -42,44 +42,73 @@ a {
             text-align: left;
 }
 
-.menu-link {
-       color:#2e2f42;
-       font-family: 'Roboto',sans-serif;
+.nav-item {
+        color: #2E2F42;
+        font-family:'Roboto',sans-serif;
         font-size: 16px;
         font-weight: 500;
-        line-height: 1.5;
+        line-height: 24px;
         letter-spacing: 0.02em;
+        text-align: left;
+
 }
 
-.menu-link:hover {
-    color: #404bbf;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-.menu-item-link:hover,
-.menu-item-link:active,
-.menu-item-link:focus {
 
-      color: #404bbf;
+
+
+
+.address-item {
+       color:#434455;
+      font-family: 'Roboto',sans-serif;
+       font-style:normal;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+
+}
+
+
+
+
+
+ /*HERO*/
+
+.color-box {
+    background-color:#2E2F42; 
+    width: 1440px height: 600px top: 72px;
+}
+
+.main-basis {
+        color:#FFFFFF;
+        font-family: Roboto;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        width: 496px height: 120px top: 260px left: 472px;
+}
+
+
+.button {
+        background-color: #4D5AE5;
+        color:#FFFFFF;
+        font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
-        line-height: 1.5;
-}
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        width: 169px;
+        height: 56px; top: 428px; left: 636px; padding: 16px, 32px, 16px, 32px;border-radius: 4px;
+        gap: 10px;
+        cursor: pointer;
+        
 
 
 
 
-.address {
-font-style: normal;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color:#434455;
-color: #404bbf;
-color: #404bbf;
-
-}
 
 .description {
     
