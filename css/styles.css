@@ -53,7 +53,9 @@ a {
 }
   
 
-
+.contacts {
+font-style: normal;
+}
 
 .address-item {
        color:#434455;
@@ -69,7 +71,7 @@ a {
 
 .address-item:hover,
 .address-item:focus {
-    background-color: #404bbf;
+    color: #404bbf;
 }
 
 
