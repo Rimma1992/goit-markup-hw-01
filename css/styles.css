@@ -110,6 +110,7 @@ a {
 
 .section_2{
     color: #2e2f42;
+    display: none;
 }
 
 .description-list-head {
