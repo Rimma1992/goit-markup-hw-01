@@ -35,6 +35,11 @@ a {
 .header-logo-part {
     color: #2E2F42;
 }
+.header-logo-part:hover,
+.header-logo-part:focus {
+    background-color: #404bbf;
+}
+
 
 .nav-item {
         color:#2E2F42;
@@ -60,12 +65,16 @@ a {
        font-style:normal;
         font-size: 16px;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: left;
 
 }
 
+.address-item:hover,
+.address-item {
+    background-color: #404bbf;
+}
 
 
 
@@ -194,16 +203,13 @@ a {
 
 
 .portfolio {
-    font-size: 36px;
-    line-height: 1.11; 
-    text-transform: capitalize;
-        font-family: 'Roboto',sans-serif;
-        font-weight: 700;
-        letter-spacing: 0.02em;
-        text-align: center;
-
-
-
+    font-size:36px;
+    line-height:1.11; 
+    text-transform:capitalize;
+        font-family:'Roboto',sans-serif;
+        font-weight:700;
+        letter-spacing:0.02em;
+        text-align:center;
 }
 
  .portfolio-name {
