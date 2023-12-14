@@ -31,16 +31,19 @@ a {
     color: #2E2F42;
 }
 
-
 .nav_item {
     color:#2E2F42;
-    font-family:'Roboto',sans-serif;
+}
+
+.nav_item{
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height:1.5 ;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
 }
+
 .link:hover,
 .link:focus {
     color: #404bbf;
